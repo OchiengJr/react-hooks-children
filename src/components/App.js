@@ -4,6 +4,13 @@ import Container from "./Container";
 function App() {
   return (
     <div className="App">
+      {/* First Container */}
+      <Container header="Example header" direction="horizontal">
+        <div>This is an example!</div>
+        {/* ... more div elements */}
+      </Container>
+
+      {/* Second Container */}
       <Container
         header="Example header"
         direction="horizontal"
@@ -11,35 +18,22 @@ function App() {
       >
         <section direction="vertical">
           <div>This is an example!</div>
-          <div>This is an example!</div>
-          <div>This is an example!</div>
-          <div>This is an example!</div>
-          <div>This is an example!</div>
-          <div>This is an example!</div>
-          <div>This is an example!</div>
+          {/* ... more div elements */}
         </section>
       </Container>
+
+      {/* Third Container */}
+      <Container header="Example header" textPosition="center">
+        {/* ... images go here */}
+      </Container>
+
+      {/* Fourth Container */}
       <Container header="Example header" textPosition="left">
-        <img
-          alt="turtle"
-          src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
-        />
-        <img
-          alt="turtle"
-          src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
-        />
-        <img
-          alt="turtle"
-          src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
-        />
-        <img
-          alt="turtle"
-          src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
-        />
+        {/* ... images go here */}
       </Container>
     </div>
   );
-  <section></section>;
 }
 
 export default App;
+
