@@ -1,3 +1,4 @@
+/* Reset default styles */
 body {
   margin: 0;
   padding: 0;
@@ -8,15 +9,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Code font */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+/* Center align elements with class .App */
 .App {
   text-align: center;
 }
 
+/* General container styles */
 .container {
   margin: 2vw;
   border-style: solid;
@@ -25,12 +29,14 @@ code {
   padding-top: 0px;
 }
 
+/* Flex container styles */
 .container-children {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
+/* Align children to the left, center, or right */
 .container-children.left {
   align-items: flex-start;
 }
@@ -43,6 +49,7 @@ code {
   align-items: flex-end;
 }
 
+/* Flex direction: vertical or horizontal */
 .container-children.vertical {
   flex-direction: column;
 }
@@ -51,6 +58,7 @@ code {
   flex-direction: row;
 }
 
+/* Text alignment within containers */
 .container.left {
   text-align: left;
 }
@@ -62,3 +70,4 @@ code {
 .container.right {
   text-align: right;
 }
+

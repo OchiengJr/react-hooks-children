@@ -1,6 +1,9 @@
 {
+  // Short name for the app
   "short_name": "React App",
+  // Full name of the app
   "name": "Create React App Sample",
+  // Array of icons in different sizes and formats
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +21,12 @@
       "sizes": "512x512"
     }
   ],
+  // Start URL of the app
   "start_url": ".",
+  // Display mode of the app (standalone, fullscreen, etc.)
   "display": "standalone",
+  // Theme color of the app
   "theme_color": "#000000",
+  // Background color of the app
   "background_color": "#ffffff"
 }
